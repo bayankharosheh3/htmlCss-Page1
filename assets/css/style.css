@@ -1,0 +1,888 @@
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+ul{
+    list-style: none;
+} /*^-^*/
+
+*{
+    padding: 0;
+    margin: 0;
+} /*^-^*/
+
+.clrFix{
+    clear: both;
+}
+
+body{
+    text-transform: capitalize;
+    font-family: 'Alegreya', serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*  */
+
+
+/* options sec start */
+
+.options{
+    position: fixed;
+    right: 0;
+    top:140px;
+    width: 50px;
+    height:80px;
+    z-index:999999;
+    background-color: white;
+    border-radius: 3%;
+
+}
+
+.options li a{
+    padding-top: 10px;
+    /* لازم اعمل ان لاين بلوك لانو الانلاين ما بوخد هايت */
+    display: block;    
+    font-size: 20px;
+    padding-left: 13px;
+
+}
+/* options sec end */
+
+
+/* header sec start */
+
+.overlay{
+    background-color: rgb(0,0,0,0.25);
+    position:absolute;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+}
+
+.header-sec{
+    background-image: url("../img/full-1.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-sec .navbar{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom:1px rgb(225, 255, 255,0.3) solid;
+}
+
+.header-sec .navbar .logo{
+    float: left;
+    width: 45%;
+    height: 50px;
+    text-align: left;
+}
+
+.header-sec .navbar .logo img{
+    width:25%;
+
+}
+
+.header-sec .navbar.nav-list{
+    float: left;
+    width:40%;
+    padding-left: 20px;
+
+}
+
+.header-sec .navbar .nav-list ul{
+    text-align: right;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+
+}
+
+.header-sec .navbar .nav-list ul li{
+    display: inline-block;
+    padding-bottom: 19px;
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+
+.hov:hover{
+    background-color:  rgb(214, 137, 137);
+    color: white;
+}
+
+.btn-style {
+    color: black;
+    width: 114px;
+    height: 16px;
+    background-color: white;
+    border-radius: 5%;
+    padding-top: -5px;
+    text-decoration: none;
+}
+
+/* .header-sec .navbar .nav-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+
+} */
+
+.contact-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+
+}
+
+.contact-hov:hover {
+    color: white;
+}
+
+.header-sec .navbar .nav-list ul li .other-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+
+}
+
+
+
+
+.header-sec .header-containt h1{
+    margin-top: 188px;
+    color: white;
+    font-family: "Dancing Script";
+    font-size:100px;
+    font-weight:400;
+}
+
+.header-sec .header-containt p{
+    font-family: "Alegreya Sans";
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    margin-top:30px;
+}
+
+.header-sec .header-containt a{
+    margin-top:45px;
+    margin-left:10px;
+    display: inline-block;
+    width: 114px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.header-sec .header-containt .learn-btn{
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    height: 56px;
+
+
+}
+
+
+
+
+/* header sec start */
+
+
+/* second sec start */
+
+.second-sec{
+    margin: auto;
+}
+
+.second-sec .columns{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    float: left;
+    width: 23%;
+    text-align: center;
+}
+
+.second-sec .columns span
+{
+    display: inline-block;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    line-height: 88px;
+    background-color:rgb(214, 137, 137);
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+
+}
+
+.second-sec .columns h3{
+    padding-top: 30px;
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+}
+
+.second-sec .columns p{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #888;
+    font-weight: 400;
+}
+/* second sec end */
+
+
+/* special day secs start */
+
+
+.specialday{
+    height: 500px;
+    padding: 0;
+    margin:0;
+}
+
+.special-containt{
+    float:left;
+    width:50%;
+    background-color: rgb(255, 251, 251);
+    height: 500px;
+
+}
+
+
+.containt{
+    padding-left: 100px;
+    padding-top:79px;
+    margin-right: 40px;
+}
+
+
+.special-img{
+    float:left;
+    width:50%;
+    height:500px;
+
+}
+
+.special-img img{
+    width:100%;
+    /* height: 100vh; */
+    height:500px;
+
+}
+
+
+.specialday .special-containt h2{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+
+.specialday .special-containt h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Dancing Script";
+    color: rgb(214, 137, 137);
+
+}
+
+.specialday .special-containt p{
+    color:rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 40px;
+}
+
+.specialday .special-containt a{
+    display: block;
+    width: 114px;
+    height: 44px;
+    border-radius: 5%;
+    background-color:rgb(214, 137, 137);
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+}
+ 
+
+/* special day secs end */
+
+
+/* number sec start */
+.number-sec{
+    background-color:rgb(214, 137, 137) ;
+    float: left;
+    width: 100%;
+}
+
+.num{
+    float:left;
+    width:25%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+.num i{
+    font-size: 34px;
+    padding-bottom: 20px;
+
+}
+
+.num p{
+    font-size: 52px;
+    padding-bottom: 20px;
+
+}
+
+.num h3{
+    font-size:20px
+}
+
+
+/* number sec end */
+
+
+/* offers sec start */
+
+
+.offers{
+    width: 100%;
+    border-bottom:1px rgb(225, 255, 255,0.3) solid;
+    padding-bottom: 40px;
+}
+
+.offers-head{
+    padding: 60px;
+    text-align: center;
+    float: left;
+    width: 92%;
+}
+.offers-head i{
+    color:rgb(214, 137, 137);
+    font-size: 40px;
+    font-weight: 400;
+    padding: 25px;
+
+}
+.offers-head h2{
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Alegreya";
+    text-transform: initial;
+
+}
+.offers-head p{
+    padding-bottom: 25px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Dancing Script";
+    color:rgb(214, 137, 137);
+
+}
+
+.offers-containt{
+    float: left;
+    width: 100%;
+    border-bottom:1px rgb(224 221 221) solid;
+    padding-bottom: 66px;
+}
+.offer{
+    float: left;
+    width: 29.2%;
+    text-align: center;
+}
+
+.offer {
+    margin: 25px;
+}
+.offer img{
+    border-radius: 1%;
+    width: 100%;
+    padding-bottom: 23px;
+}
+
+.offer h3{
+    
+    padding-bottom: 23px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+.offer p{
+    padding-bottom: 23px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.offer a{
+    padding-bottom: 23px;
+    font-size: 18px;
+    font-weight: 400px;
+    text-decoration: none;
+    color:rgb(214, 137, 137) ;
+
+}
+
+
+/* offers sec end */
+
+/* our weddings sec start */
+
+
+.view-btn{
+    float: left;
+    width: 100%;
+}
+
+.our-weddings{
+
+    float:left;
+    text-align: center;
+    width:31%;
+    margin:10px;
+    background-origin: padding-box;
+    border-bottom: 1px rgba(158, 152, 152, 0.3) solid;
+    border-right: 1px rgba(158, 152, 152, 0.3) solid;
+    border-left: 1px rgba(158, 152, 152, 0.3) solid;
+}
+
+.our-weddings img{
+    border-radius: 0%;
+    width: 100%;
+    padding-bottom: 0;
+    padding-left: .5px;
+    padding-right: 1px;
+
+}
+
+/* .our-containt{
+    border-bottom: 1px rgba(158, 152, 152, 0.3) solid;
+    border-right: 1px rgba(158, 152, 152, 0.3) solid;
+    border-left: 1px rgba(158, 152, 152, 0.3) solid;
+
+} */
+
+.our-containt{
+    padding-bottom: 15px;
+
+}
+.our-names{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    float: left;
+    width: 46%;
+}
+
+
+.our-names a{
+    font-size: 19px;
+    color: black;
+    padding-bottom: 5px;
+
+}
+
+.our-names a:hover{
+    color:rgb(214, 137, 137) ;
+}
+
+.our-names p{
+    color:rgb(136, 136, 136);
+    font-size: 15px;
+}
+
+.our-likes{
+    color:rgb(136, 136, 136);
+    float: left;
+    width: 42%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.our-likes i{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.our-likes a{
+    color:rgb(136, 136, 136);
+    font-size: 15px;
+}
+
+
+.our-likes span{
+    display: block;
+    padding-right:5px;
+}
+
+.offers-containt .view-btn{
+    text-align: center;
+
+}
+
+.offers-containt .view-btn a{
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    width: 100px;
+    height: 44px;
+    border-radius: 5%;
+    background-color: rgb(214, 137, 137);
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+}
+/* our weddings sec end */
+
+/* news sec start */
+
+
+.news-containt .news-title{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+    text-decoration: none;
+    display: block;
+    
+
+}
+.news-title:hover{
+    color:rgb(214, 137, 137) ;
+}
+.date{
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.post-details {
+    padding-top: 20px;
+    color: rgb(104, 104, 104);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 20px;
+
+}
+
+.news-containt{
+    width: 94%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.read-link{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.read-link:hover{
+    color:rgb(214, 137, 137)  ;
+}
+
+.read-link:hover span{
+    padding-left: 10px;
+}
+
+
+
+/* news sec end */
+
+/* review sec start */
+
+.review{
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    border-bottom:1px rgb(225, 255, 255,0.3) solid;
+    padding-bottom: 40px;
+}
+
+
+
+.review .container{
+
+    padding-top: 60px;
+
+}
+
+.review .con{
+    font-size: 27px;
+    font-family: "Alegreya Sans";
+    font-weight: 1000;
+    color:rgb(104, 104, 104);
+    width:88%;
+    margin:auto;
+    line-height: 50px;
+    padding-bottom: 30px;
+
+
+
+}
+
+.review .name{
+    font-size: 19px;
+    font-family: "Alegreya Sans";
+    font-weight: 1000;
+    color:rgb(104, 104, 104);
+    padding-bottom: 10px;
+}
+
+
+.review .cmp{
+    font-size: 18px;
+    font-family: "Alegreya Sans";
+    font-weight: 1000;
+    color:rgb(104, 104, 104);
+    padding-bottom: 70px;
+
+
+}
+
+.circle-con{
+    width: 6%;
+    margin: auto;
+    text-align: center;
+    line-height: 10px;
+
+}
+
+
+.circle{
+    background-color: rgb(180, 174, 174);
+    height: 7px;
+    width: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border:rgb(180, 174, 174) 2px solid;
+    border-radius: 50%;
+    color: white;
+    float: left;
+}
+
+.circle-clicked{
+    background-color:white;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top:-1px; 
+
+}
+
+
+/* review sec end */
+
+
+/* map sec start */
+
+.map{
+    height: 700px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 700px;
+}
+
+#con-par{
+    color: rgb(68, 67, 67);
+    font-family: "Alegreya Sans" ;
+    font-weight: 1000;
+    text-transform:none;
+    font-size: 18px;
+    padding-right: 87px;
+}
+#list-title{
+    color: rgb(68, 67, 67);
+
+    font-family: "Alegreya Sans" ;
+    font-weight: 1000;
+    text-transform:none;
+    font-size: 18px;
+
+}
+
+.map-list{
+    font-family: "Alegreya Sans" ;
+    color: rgb(68, 67, 67);
+    font-weight: 1000;
+    font-size: 18px;
+    text-transform:none;
+
+}
+
+.map-list i{
+    color: white;
+    background-color:rgb(214, 137, 137)  ;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    margin-right:15px ;
+}
+
+.map-list li{
+    margin-bottom: 30px;
+}
+
+/* map sec end */
+
+
+/* convediance sec start*/
+.convediance-sec{
+    height: 400px;
+    background-image: url('../img/shutterstock_247462639.jpg');
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-position-y: -294px;
+    background-size: cover;
+}
+
+.overlay2{
+    width: 100%;
+    background-color:rgb(214, 137, 137, 0.9)  ;
+    height: 100%;    
+}
+
+.convediance-sec h2{
+    padding-top: 119px;
+    color:rgb(255, 255, 255);
+    font-family:"Alegreya";
+    font-size:36px;
+    font-weight:400;
+}
+
+.convediance-sec p{
+    font-family:"Alegreya Sans";
+    color: rgba(255,255,255,.82);
+    font-weight:1000;
+    padding-top: 17px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-bottom: 0;
+
+}
+.convediance-sec a{
+    font-family:"Alegreya Sans";
+    text-transform: none;
+
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: 1000;
+    font-size: 15px;
+    display: inline-block;
+    width: 114px;
+    height: 60px;
+    border-radius: 5%;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.convediance-sec a:hover{
+    background-color: white;
+    border: 2px white solid;
+    color: black;
+}
+/* convediance sec end*/
+
+
+/* last sec start */
+.last-sec{
+    background-image:url("../img/symphony-1.png");
+    float: left;
+}
+.cols{
+    padding-top:60px;
+    float: left;
+    width: 25%;
+    background-color: transparent;
+}
+.container{
+    background-color: transparent;
+}
+
+.cols h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Alegreya";
+    text-transform: none;
+    padding-bottom: 30px;
+}
+
+.about-us p{
+    font-size: 16px;
+    font-weight: 1000;
+    font-family: "Alegreya Sans";
+    text-transform: none;
+    color: #888;
+    line-height: 33px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+
+}
+
+.itempost{
+    width:100%;
+    float: left;
+}
+.post-img img{
+    width: 100%;
+}
+
+.post-img {
+    float:left;
+    width: 50%;
+}
+
+.post-cont{
+    float: left;
+    width: 50%;
+}
+
+
+/* last sec end*/
